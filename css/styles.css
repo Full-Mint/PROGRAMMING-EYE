@@ -53,12 +53,19 @@ header label {
     color: #d3959b;
 }
 
+.logo_head{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+}
+
 /* BANNER */
 
 .banner {
     display: flex;
     background-color: rgb(0, 0, 0);
-
     height: 100vh;
 }
 
@@ -388,6 +395,24 @@ p {
         display: block;
     }
 
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 250px;
+    }
+    .logo_head{
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        margin: 0;
+        padding: 0;
+        width: 80px;
+    }
     .main_menu {
         position: absolute;
         width: 100%;
